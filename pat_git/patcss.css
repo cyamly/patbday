@@ -1,0 +1,74 @@
+
+
+body {
+  background-color: rgb(222, 225, 216);
+  font-family: "Gaegu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color: rgb(168, 154, 218);
+  font-size: 45pt;
+  align-items: center;
+  text-align: center;
+}
+
+#under-pic{
+  font-size: 25pt;
+  text-align: center;
+}
+
+#front-image{
+  display: block;
+  margin: auto;
+}
+#note-title{
+  font-size: 26pt;
+  font-weight: bold;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#note{
+  font-size: 28pt;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.the-button{
+  background-color: inherit;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  display: block;
+}
+.img-container{
+  display: block;
+  margin: auto;
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+
+#baseimg {
+  width: 100%;
+  display: block;
+}
+
+#overimg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -53%);
+  z-index: 10;  
+}
+
+.hidden {
+  display: none;
+}
